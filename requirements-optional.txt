@@ -1,0 +1,7 @@
+# Optional dependencies used by training or auxiliary entry points.
+peft
+scipy
+pandas
+openpyxl
+paramiko
+accelerate

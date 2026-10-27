@@ -1,0 +1,6 @@
+cate.policy_train --dataset p4g --prior none --seeds 44 43 42 --epochs 10
+cate.resp_train --dataset p4g --lam 1.0 --seeds 44 43 42 --epochs 10
+cate.policy_train --dataset p4g --prior dpp --seeds 44 43 42 --epochs 10
+cate.resp_train --dataset annomi --lam 1.0 --seeds 44 43 42 --epochs 10
+cate.policy_train --dataset annomi --prior none --seeds 45 46 --epochs 10
+cate.policy_train --dataset annomi --prior dpp --seeds 45 46 --epochs 10

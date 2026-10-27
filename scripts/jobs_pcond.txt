@@ -1,0 +1,6 @@
+cate.pcond_train --dataset annomi --seed 42 --epochs 10 --token posterior
+cate.pcond_train --dataset annomi --seed 42 --epochs 10 --token zero
+cate.pcond_train --dataset esconv --seed 42 --epochs 8 --token posterior
+cate.pcond_train --dataset esconv --seed 42 --epochs 8 --token zero
+cate.pcond_train --dataset p4g --seed 42 --epochs 10 --token posterior
+cate.pcond_train --dataset p4g --seed 42 --epochs 10 --token zero

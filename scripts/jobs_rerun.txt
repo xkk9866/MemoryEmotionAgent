@@ -1,0 +1,2 @@
+cate.resp_train --dataset annomi --encoder roberta-large --tag roberta-large --lr 1e-5 --seeds 45 --epochs 10 --bs 8
+cate.resp_train --dataset p4g --encoder roberta-large --tag roberta-large --lr 1e-5 --seeds 45 --epochs 10 --bs 8

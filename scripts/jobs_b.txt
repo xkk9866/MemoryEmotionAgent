@@ -1,0 +1,3 @@
+cate.resp_train --dataset esconv --lam 1.0 --seeds 42 43 44 --epochs 8
+cate.resp_train --dataset annomi --lam 1.0 --seeds 42 43 44 --epochs 10
+cate.resp_train --dataset p4g --lam 1.0 --seeds 42 43 44 --epochs 10

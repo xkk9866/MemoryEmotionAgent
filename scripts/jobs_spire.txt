@@ -1,0 +1,9 @@
+cate.spire --dataset annomi --tag roberta-base --seeds 42 --configs spire no_situation isotropic no_moderation learned_rla amortized no_crossfit semantic
+cate.spire --dataset annomi --tag roberta-base --seeds 43 --configs spire no_situation isotropic no_moderation learned_rla amortized no_crossfit semantic
+cate.spire --dataset annomi --tag roberta-base --seeds 44 --configs spire no_situation isotropic no_moderation learned_rla amortized no_crossfit semantic
+cate.spire --dataset esconv --tag roberta-base --seeds 42 --configs spire no_situation isotropic no_moderation learned_rla amortized no_crossfit semantic
+cate.spire --dataset esconv --tag roberta-base --seeds 43 --configs spire no_situation isotropic no_moderation learned_rla amortized no_crossfit semantic
+cate.spire --dataset esconv --tag roberta-base --seeds 44 --configs spire no_situation isotropic no_moderation learned_rla amortized no_crossfit semantic
+cate.spire --dataset p4g --tag roberta-base --seeds 42 --configs spire no_situation isotropic no_moderation learned_rla amortized no_crossfit semantic
+cate.spire --dataset p4g --tag roberta-base --seeds 43 --configs spire no_situation isotropic no_moderation learned_rla amortized no_crossfit semantic
+cate.spire --dataset p4g --tag roberta-base --seeds 44 --configs spire no_situation isotropic no_moderation learned_rla amortized no_crossfit semantic

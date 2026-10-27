@@ -1,0 +1,15 @@
+cate.spire --dataset esconv --tag roberta-base --seeds 42 --configs learned_rla spire --oracle --out spire_oracle
+cate.spire --dataset esconv --tag roberta-base --seeds 43 --configs learned_rla spire --oracle --out spire_oracle
+cate.spire --dataset esconv --tag roberta-base --seeds 44 --configs learned_rla spire --oracle --out spire_oracle
+cate.spire --dataset esconv --tag roberta-large --seeds 42 --configs learned_rla spire --oracle --out spire_oracle
+cate.spire --dataset esconv --tag roberta-large --seeds 43 --configs learned_rla spire --oracle --out spire_oracle
+cate.spire --dataset esconv --tag roberta-large --seeds 44 --configs learned_rla spire --oracle --out spire_oracle
+cate.spire --dataset annomi --tag roberta-base --seeds 42 --configs learned_rla spire --oracle --out spire_oracle
+cate.spire --dataset annomi --tag roberta-base --seeds 43 --configs learned_rla spire --oracle --out spire_oracle
+cate.spire --dataset annomi --tag roberta-base --seeds 44 --configs learned_rla spire --oracle --out spire_oracle
+cate.spire --dataset annomi --tag roberta-large --seeds 42 --configs learned_rla spire --oracle --out spire_oracle
+cate.spire --dataset annomi --tag roberta-large --seeds 43 --configs learned_rla spire --oracle --out spire_oracle
+cate.spire --dataset annomi --tag roberta-large --seeds 44 --configs learned_rla spire --oracle --out spire_oracle
+cate.spire --dataset p4g --tag roberta-base --seeds 42 --configs learned_rla spire --oracle --out spire_oracle
+cate.spire --dataset p4g --tag roberta-base --seeds 43 --configs learned_rla spire --oracle --out spire_oracle
+cate.spire --dataset p4g --tag roberta-base --seeds 44 --configs learned_rla spire --oracle --out spire_oracle

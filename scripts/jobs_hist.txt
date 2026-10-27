@@ -1,0 +1,3 @@
+cate.policy_train --dataset annomi --tag roberta-base-hist --hist --seeds 42 43 44 --epochs 10
+cate.policy_train --dataset p4g --tag roberta-base-hist --hist --seeds 42 43 44 --epochs 10
+cate.policy_train --dataset esconv --tag roberta-base-hist --hist --seeds 42 43 44 --epochs 8

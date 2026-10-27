@@ -1,0 +1,191 @@
+[
+ {
+  "name": "roberta-base_meta_annomi_s42",
+  "mem": 11000,
+  "local_only": false,
+  "out": "results/policy/annomi/roberta-base_meta_s42.json",
+  "cmd": "cate.meta_train --dataset annomi --encoder roberta-base --tag roberta-base --seeds 42 --epochs 10"
+ },
+ {
+  "name": "roberta-base_meta_annomi_s43",
+  "mem": 11000,
+  "local_only": false,
+  "out": "results/policy/annomi/roberta-base_meta_s43.json",
+  "cmd": "cate.meta_train --dataset annomi --encoder roberta-base --tag roberta-base --seeds 43 --epochs 10"
+ },
+ {
+  "name": "roberta-base_meta_annomi_s44",
+  "mem": 11000,
+  "local_only": false,
+  "out": "results/policy/annomi/roberta-base_meta_s44.json",
+  "cmd": "cate.meta_train --dataset annomi --encoder roberta-base --tag roberta-base --seeds 44 --epochs 10"
+ },
+ {
+  "name": "roberta-base_meta_esconv_s42",
+  "mem": 11000,
+  "local_only": false,
+  "out": "results/policy/esconv/roberta-base_meta_s42.json",
+  "cmd": "cate.meta_train --dataset esconv --encoder roberta-base --tag roberta-base --seeds 42 --epochs 8"
+ },
+ {
+  "name": "roberta-base_meta_esconv_s43",
+  "mem": 11000,
+  "local_only": false,
+  "out": "results/policy/esconv/roberta-base_meta_s43.json",
+  "cmd": "cate.meta_train --dataset esconv --encoder roberta-base --tag roberta-base --seeds 43 --epochs 8"
+ },
+ {
+  "name": "roberta-base_meta_esconv_s44",
+  "mem": 11000,
+  "local_only": false,
+  "out": "results/policy/esconv/roberta-base_meta_s44.json",
+  "cmd": "cate.meta_train --dataset esconv --encoder roberta-base --tag roberta-base --seeds 44 --epochs 8"
+ },
+ {
+  "name": "roberta-base_meta_p4g_s42",
+  "mem": 11000,
+  "local_only": false,
+  "out": "results/policy/p4g/roberta-base_meta_s42.json",
+  "cmd": "cate.meta_train --dataset p4g --encoder roberta-base --tag roberta-base --seeds 42 --epochs 10"
+ },
+ {
+  "name": "roberta-base_meta_p4g_s43",
+  "mem": 11000,
+  "local_only": false,
+  "out": "results/policy/p4g/roberta-base_meta_s43.json",
+  "cmd": "cate.meta_train --dataset p4g --encoder roberta-base --tag roberta-base --seeds 43 --epochs 10"
+ },
+ {
+  "name": "roberta-base_meta_p4g_s44",
+  "mem": 11000,
+  "local_only": false,
+  "out": "results/policy/p4g/roberta-base_meta_s44.json",
+  "cmd": "cate.meta_train --dataset p4g --encoder roberta-base --tag roberta-base --seeds 44 --epochs 10"
+ },
+ {
+  "name": "roberta-large_meta_annomi_s42",
+  "mem": 17000,
+  "local_only": false,
+  "out": "results/policy/annomi/roberta-large_meta_s42.json",
+  "cmd": "cate.meta_train --dataset annomi --encoder roberta-large --tag roberta-large --seeds 42 --epochs 10 --lr 1e-5 --bs 8 --dialogs_per_step 1"
+ },
+ {
+  "name": "roberta-large_meta_annomi_s43",
+  "mem": 17000,
+  "local_only": false,
+  "out": "results/policy/annomi/roberta-large_meta_s43.json",
+  "cmd": "cate.meta_train --dataset annomi --encoder roberta-large --tag roberta-large --seeds 43 --epochs 10 --lr 1e-5 --bs 8 --dialogs_per_step 1"
+ },
+ {
+  "name": "roberta-large_meta_annomi_s44",
+  "mem": 17000,
+  "local_only": false,
+  "out": "results/policy/annomi/roberta-large_meta_s44.json",
+  "cmd": "cate.meta_train --dataset annomi --encoder roberta-large --tag roberta-large --seeds 44 --epochs 10 --lr 1e-5 --bs 8 --dialogs_per_step 1"
+ },
+ {
+  "name": "roberta-large_meta_esconv_s42",
+  "mem": 17000,
+  "local_only": false,
+  "out": "results/policy/esconv/roberta-large_meta_s42.json",
+  "cmd": "cate.meta_train --dataset esconv --encoder roberta-large --tag roberta-large --seeds 42 --epochs 6 --lr 1e-5 --bs 8 --dialogs_per_step 1"
+ },
+ {
+  "name": "roberta-large_meta_esconv_s43",
+  "mem": 17000,
+  "local_only": false,
+  "out": "results/policy/esconv/roberta-large_meta_s43.json",
+  "cmd": "cate.meta_train --dataset esconv --encoder roberta-large --tag roberta-large --seeds 43 --epochs 6 --lr 1e-5 --bs 8 --dialogs_per_step 1"
+ },
+ {
+  "name": "roberta-large_meta_esconv_s44",
+  "mem": 17000,
+  "local_only": false,
+  "out": "results/policy/esconv/roberta-large_meta_s44.json",
+  "cmd": "cate.meta_train --dataset esconv --encoder roberta-large --tag roberta-large --seeds 44 --epochs 6 --lr 1e-5 --bs 8 --dialogs_per_step 1"
+ },
+ {
+  "name": "roberta-large_meta_p4g_s42",
+  "mem": 17000,
+  "local_only": false,
+  "out": "results/policy/p4g/roberta-large_meta_s42.json",
+  "cmd": "cate.meta_train --dataset p4g --encoder roberta-large --tag roberta-large --seeds 42 --epochs 10 --lr 1e-5 --bs 8 --dialogs_per_step 1"
+ },
+ {
+  "name": "roberta-large_meta_p4g_s43",
+  "mem": 17000,
+  "local_only": false,
+  "out": "results/policy/p4g/roberta-large_meta_s43.json",
+  "cmd": "cate.meta_train --dataset p4g --encoder roberta-large --tag roberta-large --seeds 43 --epochs 10 --lr 1e-5 --bs 8 --dialogs_per_step 1"
+ },
+ {
+  "name": "roberta-large_meta_p4g_s44",
+  "mem": 17000,
+  "local_only": false,
+  "out": "results/policy/p4g/roberta-large_meta_s44.json",
+  "cmd": "cate.meta_train --dataset p4g --encoder roberta-large --tag roberta-large --seeds 44 --epochs 10 --lr 1e-5 --bs 8 --dialogs_per_step 1"
+ },
+ {
+  "name": "roberta-base_metanoinner_annomi_s42",
+  "mem": 10000,
+  "local_only": false,
+  "out": "results/policy/annomi/roberta-base_metanoinner_s42.json",
+  "cmd": "cate.meta_train --dataset annomi --encoder roberta-base --tag roberta-base --seeds 42 --no_inner --epochs 10"
+ },
+ {
+  "name": "roberta-base_metanoinner_annomi_s43",
+  "mem": 10000,
+  "local_only": false,
+  "out": "results/policy/annomi/roberta-base_metanoinner_s43.json",
+  "cmd": "cate.meta_train --dataset annomi --encoder roberta-base --tag roberta-base --seeds 43 --no_inner --epochs 10"
+ },
+ {
+  "name": "roberta-base_metanoinner_annomi_s44",
+  "mem": 10000,
+  "local_only": false,
+  "out": "results/policy/annomi/roberta-base_metanoinner_s44.json",
+  "cmd": "cate.meta_train --dataset annomi --encoder roberta-base --tag roberta-base --seeds 44 --no_inner --epochs 10"
+ },
+ {
+  "name": "roberta-base_metanoinner_esconv_s42",
+  "mem": 10000,
+  "local_only": false,
+  "out": "results/policy/esconv/roberta-base_metanoinner_s42.json",
+  "cmd": "cate.meta_train --dataset esconv --encoder roberta-base --tag roberta-base --seeds 42 --no_inner --epochs 8"
+ },
+ {
+  "name": "roberta-base_metanoinner_esconv_s43",
+  "mem": 10000,
+  "local_only": false,
+  "out": "results/policy/esconv/roberta-base_metanoinner_s43.json",
+  "cmd": "cate.meta_train --dataset esconv --encoder roberta-base --tag roberta-base --seeds 43 --no_inner --epochs 8"
+ },
+ {
+  "name": "roberta-base_metanoinner_esconv_s44",
+  "mem": 10000,
+  "local_only": false,
+  "out": "results/policy/esconv/roberta-base_metanoinner_s44.json",
+  "cmd": "cate.meta_train --dataset esconv --encoder roberta-base --tag roberta-base --seeds 44 --no_inner --epochs 8"
+ },
+ {
+  "name": "roberta-base_metanoinner_p4g_s42",
+  "mem": 10000,
+  "local_only": false,
+  "out": "results/policy/p4g/roberta-base_metanoinner_s42.json",
+  "cmd": "cate.meta_train --dataset p4g --encoder roberta-base --tag roberta-base --seeds 42 --no_inner --epochs 10"
+ },
+ {
+  "name": "roberta-base_metanoinner_p4g_s43",
+  "mem": 10000,
+  "local_only": false,
+  "out": "results/policy/p4g/roberta-base_metanoinner_s43.json",
+  "cmd": "cate.meta_train --dataset p4g --encoder roberta-base --tag roberta-base --seeds 43 --no_inner --epochs 10"
+ },
+ {
+  "name": "roberta-base_metanoinner_p4g_s44",
+  "mem": 10000,
+  "local_only": false,
+  "out": "results/policy/p4g/roberta-base_metanoinner_s44.json",
+  "cmd": "cate.meta_train --dataset p4g --encoder roberta-base --tag roberta-base --seeds 44 --no_inner --epochs 10"
+ }
+]
