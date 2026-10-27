@@ -1,7 +1,6 @@
 # MemoryEmotionAgent / RPI
 
-Code for session-level support-strategy adaptation from previously observed
-actions, with residual, structured and count-based variants.
+RPI adapts a strategy classifier to the current dialogue using previously observed actions. A regularized correction updates the classifier logits as session history becomes available. This repository contains the backbone training pipeline, RPI, structured adaptation with SPIRE and historical-count variants.
 
 ## Code map
 
@@ -51,35 +50,35 @@ Generate the complete fold/seed collection expected by each downstream runner
 before running adaptation summaries. RPI consumes independently observed past
 strategy labels, ordered within a session.
 
+The shell workers use `python` from the active environment. Set `PYTHON_BIN`
+to select a different interpreter.
+
 ## Optional remote scheduler
 
 `scripts/dispatch.py` reads connection details from `REMOTE_HOST`,
 `REMOTE_PORT`, `REMOTE_USER`, and optionally `REMOTE_PASSWORD`.
 Without a password it can use Paramiko's normal SSH key authentication.
 Set `REMOTE_PROJECT_DIR` and `REMOTE_PYTHON` for the remote installation.
-No server address or password is included in this public copy.
+Supply these values in your local environment. Keep connection settings and
+SSH keys outside version control. The scheduler is optional; the commands above
+run locally.
 
-## Release contents
+## Working with session predictions
 
-This repository contains the project source code, training and evaluation
-entry points, baseline implementations, and available tests. Experiment and
-metric-analysis code is retained. Manuscripts, downloaded reference papers,
-editorial notes, publication figures and LaTeX-table exporters are not included.
+Cross-fitting saves feature and prediction arrays for each dataset, encoder,
+split, seed and fold. Build the complete collection required by the selected
+adaptation runner before evaluating it.
 
-Datasets, model weights, local prediction caches, logs, and machine credentials
-are not distributed with this release. Obtain datasets and model weights from
-their original providers and follow their respective access and usage terms.
-Configuration defaults in some experimental scripts refer to the original
-Windows or Linux workspace; use the documented environment variables and
-command-line options, and review path constants before a full run.
+Preserve dialogue order and use past observed strategy labels as the adaptation
+history. The session-transfer and repartitioning scripts provide separate
+controls for the source of that history and the choice of train/test partition.
 
-The release was checked for Python syntax and accidental inclusion of manuscript
-files and embedded credentials. This publication check does not rerun GPU
-training or certify that every experimental entry point is turnkey.
+## Data and configuration
 
-## Repository status
+Download benchmark datasets and pretrained models from their original providers
+and follow their usage terms. Data, checkpoints and generated predictions are
+stored locally and are not included in this repository.
 
-Public code repository: https://github.com/xkk9866/MemoryEmotionAgent
-
-The public release is a code snapshot. Dataset and checkpoint availability is
-separate from source-code availability.
+Set the paths described above before running experiments. Some auxiliary scripts
+use fixed local path defaults; adjust those paths for your installation.
+The command examples assume execution from the repository root.
